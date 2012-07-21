@@ -1,0 +1,4 @@
+pygments: true
+tar_path: https://github.com/dfm/hyperion-rt/hyperion/zipball/master
+zip_path: https://github.com/dfm/hyperion-rt/hyperion/tarball/master
+github: http://www.github.com/hyperion-rt/hyperion
