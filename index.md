@@ -34,7 +34,12 @@ Reporting issues
 ----------------
 
 If you encounter any issues with the code, or have requests for new features,
-please open a new feature on the GitHub [issue tracker](http://www.github.com/hyperion-rt/hyperion/issues) . Please resolve installation issues with your system administrator, as they are likely due to issues with the dependencies - however, if you think you have encountered a genuine bug in the installation, please do report it.
+please open a new ticket on the GitHub [issue tracker](http://www.github.com/hyperion-rt/hyperion/issues).
+Please resolve try and installation issues with your system administrator, as
+they are likely due to issues with the dependencies - however, if you think
+you have encountered a genuine bug in the installation, please do report it.
+
+If you prefer, you can send any questions/issues to [help@hyperion-rt.org](mailto:help@hyperion-rt.org)!
 
 Example model
 -------------
