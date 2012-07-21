@@ -4,22 +4,36 @@ title: Hyperion
 tagline: Monte-Carlo dust continuum radiative transfer
 ---
 
-About
------
+Getting started
+---------------
 
-Hyperion is a parallelized three-dimensional dust continuum radiative transfer code (see Robitaille et al., 2011 for details). The main features include:
+Hyperion is a parallelized three-dimensional dust continuum radiative transfer code. The code is described in [Robitaille (2011)](http://dx.doi.org/10.1051/0004-6361/201117150). Its main features include:
 
 * Dust continuum radiative transfer
 * SEDs, images, and polarization maps
-* Arbitrary 3-d geometry
-* Multiple sources and dust populations
-* Arbitrary dust properties
+* Support for arbitrary 3-d geometry
+* Support for multiple sources and dust populations
+* Support for arbitrary dust properties
 * Cartesian, Polar, and Adaptive grids (Octree and AMR)
 * Easy-to-use Python library to set up, run, and post-process models
-* High performance parallelized Fortran 2003 core
+* High performance parallelized (MPI) Fortran 2003 core
 
-Example
--------
+The current stable version of Hyperion is 0.9.0. The source code can be downloaded [here](http://www.github.com/hyperion-rt/hyperion/downloads). The documentation, which includes installation instructions, is located at [http://docs.hyperion-rt.org](http://docs.hyperion-rt.org)
+
+**Note**: If you decide to use the code, you should sign up to the mailing list in order to be informed when new versions are available:
+
+<center>
+<form action="http://groups.google.com/group/hyperion-announce/boxsubscribe">
+  <input type="text" name="email" size='29' value='enter your email address here' onblur="if (this.value == '') {this.value = 'enter your email address here';}" onfocus="if (this.value == 'enter your email address here') {this.value = '';}"/>
+  <input type="submit" name="sub" value="Subscribe to the mailing list"/>
+</form>
+</center>
+<br>
+
+Setting up models
+-----------------
+
+Hyperion does not use parameter files, which are too restrictive. Instead, models are set up via Python scripts. The following code demonstrates how the Python Hyperion library can be used to easily set up a simple arbitrary model. The code interface focuses on being human-readable while being very flexible:
 
 {% highlight python %}
 from hyperion.model import Model
@@ -40,16 +54,6 @@ m.set_n_photons(initial=100000, imaging=10000)
 m.write('model.rtin')
 m.run('model.rtout')
 {% endhighlight %}
-
-Getting started
----------------
-
-The current version of Hyperion is 0.9.0. The source code can be downloaded [here](http://www.github.com/hyperion-rt/hyperion/downloads) and installation instructions are provided in the [documentation](http://docs.hyperion-rt.org/installation/installation.html).
-
-Documentation
--------------
-
-The documentation for Hyperion is can be found at http://docs.hyperion-rt.org
 
 Reporting issues
 ----------------

@@ -4,27 +4,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }}</title>
-    
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26835452-1']);
+    _gaq.push(['_setDomainName', 'hyperion-rt.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+    <script type="text/javascript">
+    (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+    </script>
+
   </head>
   <body>
     <div class="wrapper">
       <header>
         <p class="view"><a href="{{ github }}">View the Project on GitHub <small>hyperion-rt/hyperion</small></a></p>
         <ul>
-          <li><a href="{{ site.zip_path }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.docs }}">Read <strong>Docs</strong></a></li>
           <li><a href="{{ site.tar_path }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ github }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="{{ site.github }}">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
          {{ content }}
+         <center>
+           <a href="https://twitter.com/share" class="twitter-share-button" data-text="Hyperion: A new Monte-Carlo dust continuum radiative transfer code - " data-count="horizontal">Tweet</a>
+           <g:plusone size="medium" href="http://www.hyperion-rt.org"></g:plusone>
+         </center>
       </section>
     </div>
     <footer>
