@@ -30,8 +30,14 @@ The current stable version of Hyperion is 0.9.0. The source code can be download
 </center>
 <br>
 
-Setting up models
------------------
+Reporting issues
+----------------
+
+If you encounter any issues with the code, or have requests for new features,
+please open a new feature on the GitHub [issue tracker](http://www.github.com/hyperion-rt/hyperion/issues) . Please resolve installation issues with your system administrator, as they are likely due to issues with the dependencies - however, if you think you have encountered a genuine bug in the installation, please do report it.
+
+Example model
+-------------
 
 Hyperion does not use parameter files, which are too restrictive. Instead, models are set up via Python scripts. The following code demonstrates how the Python Hyperion library can be used to easily set up a simple arbitrary model. The code interface focuses on being human-readable while being very flexible:
 
@@ -54,12 +60,6 @@ m.set_n_photons(initial=100000, imaging=10000)
 m.write('model.rtin')
 m.run('model.rtout')
 {% endhighlight %}
-
-Reporting issues
-----------------
-
-If you encounter any issues with the code, or have requests for new features,
-please open a new feature on the GitHub [issue tracker](http://www.github.com/hyperion-rt/hyperion/issues) . Please resolve installation issues with your system administrator, as they are likely due to issues with the dependencies - however, if you think you have encountered a genuine bug in the installation, please do report it.
 
 Contributing
 ------------
