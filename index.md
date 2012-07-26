@@ -50,6 +50,6 @@ Contributing
 ------------
 
 In addition to reporting issues with the code or the documentation, code and
-documentation contributions are welcome. Please read the [following](http://docs.hyperion-rt.org/contributing) page for more details on how to
+documentation contributions are welcome. Please read the [following](http://docs.hyperion-rt.org/en/latest/contributing.html) page for more details on how to
 contribute code.
 
