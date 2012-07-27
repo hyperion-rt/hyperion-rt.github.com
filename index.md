@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Hyperion
-tagline: Monte-Carlo dust continuum radiative transfer
+title: Hyperion Monte-Carlo Radiative Transfer Code
 ---
 
 Getting started
