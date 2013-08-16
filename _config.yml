@@ -1,4 +1,4 @@
 pygments: true
-tar_path: http://github.com/downloads/hyperion-rt/hyperion/hyperion-0.9.1.tar.gz
+tar_path: https://pypi.python.org/pypi/Hyperion
 github: http://www.github.com/hyperion-rt/hyperion
 docs: http://docs.hyperion-rt.org
