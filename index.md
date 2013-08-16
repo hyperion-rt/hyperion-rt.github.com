@@ -18,7 +18,7 @@ Hyperion is a parallelized 3-d dust continuum radiative transfer code. The code 
 * Easy-to-use Python library to set up, run, and post-process models
 * High performance parallelized (MPI) Fortran 2003 core
 
-The current stable version of Hyperion is 0.9.1 - [download](http://github.com/downloads/hyperion-rt/hyperion/hyperion-0.9.1.tar.gz)
+The current stable version of Hyperion is 0.9.2 - [download from PyPI](https://pypi.python.org/pypi/Hyperion)
 
 The documentation and installation instructions are located at [http://docs.hyperion-rt.org](http://docs.hyperion-rt.org)
 
@@ -49,6 +49,6 @@ Contributing
 ------------
 
 In addition to reporting issues with the code or the documentation, code and
-documentation contributions/patches are welcome. Please read the [following](http://docs.hyperion-rt.org/en/latest/contributing.html) page for more details on how to
+documentation contributions/patches are welcome. Please read the [following](http://docs.hyperion-rt.org/en/stable/contributing.html) page for more details on how to
 contribute code.
 
