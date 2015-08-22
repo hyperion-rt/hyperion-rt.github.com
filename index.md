@@ -14,11 +14,11 @@ Hyperion is a parallelized 3-d dust continuum radiative transfer code. The code 
 * Support for arbitrary 3-d geometry
 * Support for multiple sources and dust populations
 * Support for arbitrary dust properties
-* Cartesian, Polar, and Adaptive grids (Octree and AMR)
+* Cartesian, Polar, Adaptive grids (Octree and AMR), and unstructured Voronoi meshes
 * Easy-to-use Python library to set up, run, and post-process models
 * High performance parallelized (MPI) Fortran 2003 core
 
-The current stable version of Hyperion is 0.9.4 - [download from PyPI](https://pypi.python.org/pypi/Hyperion)
+The current stable version of Hyperion is 0.9.7 - [download from PyPI](https://pypi.python.org/pypi/Hyperion)
 
 The documentation and installation instructions are located at [http://docs.hyperion-rt.org](http://docs.hyperion-rt.org)
 
